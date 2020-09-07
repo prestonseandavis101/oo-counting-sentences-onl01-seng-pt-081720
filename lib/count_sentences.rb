@@ -5,7 +5,9 @@ class String
   def sentence?
     if self.end_with?(" . ")
       puts true 
-      
+    else 
+      false 
+    end
       
     end
 
